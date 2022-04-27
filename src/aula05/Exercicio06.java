@@ -7,14 +7,14 @@ public class Exercicio06 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        int[] gabarito = new int[5];
-        int[] aposta = new int[5];
+        int[] gabarito = new int[13];
+        int[] aposta = new int[13];
         int validaAposta;
         int acertos = 0;
         Random random = new Random();
 
         for(int i = 0; i < gabarito.length; i++ ){
-            gabarito[i] = random.nextInt(3);
+            gabarito[i] = random.nextInt(3)+1;
         }
 
         for(int i = 0; i < gabarito.length;){
