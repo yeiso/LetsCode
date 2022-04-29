@@ -23,7 +23,7 @@ public class Exercicio01 {
         System.out.println("Digite o preco de uma carteira de cigarros:");
         precoCarteira = scanner.nextInt();
 
-        System.out.printf("Voce gastou aproximadamente: R$ %.2f", (precoCarteira / cigarrosPorDia) * (totalAnosFumando * 365));
+        System.out.printf("Voce gastou aproximadamente: R$ %.2f", (precoCarteira / 20) * cigarrosPorDia * (totalAnosFumando * 365));
 
 
     }

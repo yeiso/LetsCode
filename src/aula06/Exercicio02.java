@@ -13,6 +13,7 @@ import java.util.Scanner;
  * d. Salário bruto até R$ 2500,00 (Inclusive) – desconto de 10%;
  * e. Salário bruto acima de 2500 – Desconto de 20%.
  */
+
 public class Exercicio02 {
     public static void main(String[] args) {
 

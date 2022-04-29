@@ -43,7 +43,5 @@ public class Exercicio07 {
                 System.out.printf("Parcela 1 de 3 - Compra ID:%d - R$ %.2f %n", i, (valorVendas[i]/3));
             }
         }
-
-
     }
 }
